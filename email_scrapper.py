@@ -104,7 +104,7 @@ class EmailScraperApp(QWidget):
             return
 
         # TODO : Remove this filter
-        urls_df = urls_df.iloc[0:200]
+        urls_df = urls_df.iloc[0:50]
 
         all_emails = []
         failed_urls = []
